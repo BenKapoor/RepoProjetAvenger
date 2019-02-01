@@ -14,7 +14,7 @@ public class AvengerService implements IAvengerService {
 	 * @param Avenger
 	 * @return
 	 * @throws SQLException
-	 * Methode ListAvenger permettant de lister tous les étudiants
+	 * Methode ListAvenger permettant de lister tous les Avengers
 	 */
 	public ArrayList<Avenger> listAvenger(Avenger Avenger) throws Exception{
 		ArrayList<Avenger> ArrayAvenger = new ArrayList<>();
@@ -25,7 +25,7 @@ public class AvengerService implements IAvengerService {
 	/**
 	 * @param Avenger
 	 * @throws SQLException
-	 * Methode permettant d'ajouter un étudiant
+	 * Methode permettant d'ajouter un Avenger
 	 */
 	public void ajouterAvenger(Avenger Avenger) throws Exception{
 		
@@ -35,7 +35,7 @@ public class AvengerService implements IAvengerService {
 	/**
 	 * @param id
 	 * @throws SQLException
-	 * Méthode permettant de supprimer un étudiant avec son identifiant
+	 * Méthode permettant de supprimer un Avenger avec son identifiant
 	 */
 	public void supprimerAvenger(int id) throws Exception{
 		
@@ -46,7 +46,7 @@ public class AvengerService implements IAvengerService {
 	 * @param Avenger
 	 * @param id
 	 * @throws SQLException
-	 * Méthode permettant de modifier les informations d'une étudiant 
+	 * Méthode permettant de modifier les informations d'une Avenger 
 	 */
 	public void editerAvenger(Avenger Avenger, int id) throws Exception{
 		
@@ -58,7 +58,7 @@ public class AvengerService implements IAvengerService {
 	 * @param id
 	 * @return
 	 * @throws SQLException
-	 * Méthode permettant d'afficher les information d'un étudiant
+	 * Méthode permettant d'afficher les information d'un Avenger
 	 */
 	public ArrayList<Avenger> listUnAvenger(Avenger Avenger, int id) throws Exception {
 		

@@ -14,7 +14,7 @@ public class AvengerDAO extends AbstractAvengerDAO {
 	 * @param Avenger
 	 * @return
 	 * @throws DAOException
-	 * Méthode au niveau du DAO permettant d'afficher tous les étudiants
+	 * Méthode au niveau du DAO permettant d'afficher tous les Avengers
 	 */
 	public ArrayList<Avenger> listAvenger(Avenger Avenger) throws DAOException {
 		ArrayList<Avenger> ArrayListAvenger = new ArrayList<>();
@@ -45,7 +45,7 @@ public class AvengerDAO extends AbstractAvengerDAO {
 	/**
 	 * @param Avenger
 	 * @throws DAOException
-	 * Méthode au niveau du DAO permettant d'ajouter un nouvel étudiant
+	 * Méthode au niveau du DAO permettant d'ajouter un nouvel Avengers
 	 */
 	public void ajouterAvenger(Avenger Avenger) throws DAOException {
 		try {
@@ -62,7 +62,7 @@ public class AvengerDAO extends AbstractAvengerDAO {
 	/**
 	 * @param id
 	 * @throws DAOException
-	 * Méthode au niveau du DAO permettant de supprimer un étudiant
+	 * Méthode au niveau du DAO permettant de supprimer un Avengers
 	 */
 	public void supprimerAvenger(int id) throws DAOException {
 		// TODO Auto-generated method stub	
@@ -79,7 +79,7 @@ public class AvengerDAO extends AbstractAvengerDAO {
 	 * @param Avenger
 	 * @param id
 	 * @throws DAOException
-	 * Méthode au niveau du DAO permettant de mettre à jour un étudiants
+	 * Méthode au niveau du DAO permettant de mettre à jour un Avengers
 	 */
 	public void editerAvenger(Avenger Avenger, int id) throws DAOException {
 		// TODO Auto-generated method stub	
@@ -102,7 +102,7 @@ public class AvengerDAO extends AbstractAvengerDAO {
 	 * @param id
 	 * @return
 	 * @throws DAOException
-	 * Méthode au niveau du DAO permettant d'afficher un étudiants
+	 * Méthode au niveau du DAO permettant d'afficher un Avengerss
 	 */
 	public ArrayList<Avenger> listUnAvenger(Avenger Avenger, int id) throws DAOException {
 		ArrayList<Avenger> ArrayListUnAvenger = new ArrayList<>();
