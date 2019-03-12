@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import com.objis.demostreams.common.Genre;
 import com.objis.demostreams.common.Personne;
@@ -35,8 +36,8 @@ public class LambdaDemo1Sort {
 			   .filter(person -> person.getAge() > 18)
 			   .filter(person -> person.getGenre() == Genre.FEMME)
 			   .map(person -> person.getNom().toUpperCase())
-			   .collect(toList());
-	   
+			   .collect(Collectors.toList());
+	   System.out.println(listePersonnes);
 	   
 	}
 	
